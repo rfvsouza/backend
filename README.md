@@ -1,1 +1,2 @@
 # EmplManagerBackEnd
+added new views
