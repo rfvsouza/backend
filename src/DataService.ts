@@ -5,7 +5,7 @@ import { Employee, WorkingPossition } from './model/Model';
 export default class DataService {
 
     private account: String = process.env.ACCOUNT;
-
+// // 
     public getManagers(): Employee[] {
         return this.sortByPossition(WorkingPossition.MANAGER);
     }
